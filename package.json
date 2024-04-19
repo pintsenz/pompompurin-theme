@@ -1,0 +1,35 @@
+{
+  "name": "pompompurin",
+  "displayName": "pompompurin ",
+  "description": "cozy and warm pompompurin theme made by pintsenz",
+  "version": "0.0.1",
+  "publisher" : "pintsenz",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/pintsenz/pompompurin-theme"
+  },
+  "keywords": [
+    "dark theme",
+    "cozy theme",
+    "pintsenz",
+    "yellow and brown theme",
+    "pompompurin",
+    "sanrio"
+  ],
+  
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "pompompurin",
+        "uiTheme": "vs",
+        "path": "./pompompurin-color-theme.json"
+      }
+    ]
+  }
+}
